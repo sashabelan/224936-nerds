@@ -1,12 +1,204 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nёrds - главная</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style/symbols-nerds.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="favicon-128x128.png" sizes="128x128">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicon-64x64.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+</head>
+<body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-testing 
-  </body>
+<!-- Header -->
+  <header>
+    <div class="container">
+      <a class="icon-basket " href="#">Корзина</a>
+      <nav>
+        <ul class="menu">
+          <li><a class="active" href="index.html">Студия</a></li>
+          <li><a href="#references">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <a class="header-logo" href="index.html">Nёrds</a>
+    </div>
+  </header>
+
+<!-- Content -->
+  <!-- Slider -->
+  <main>
+    <section class="slider">
+      <div class="container">
+
+          <!-- Slide 1 -->
+          <div class="owl-carousel">
+
+            <div class="slide first">
+              <p class="slide-title">Долго, дорого, скрупулезно.</p>
+              <p class="slide-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+              <a href="#" class="btn slide-btn">Узнать больше</a>
+
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide second">
+              <p class="slide-title">Любите ли вы математику, как любим ее мы?</p>
+              <p class="slide-text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
+              <a href="#" class="btn slide-btn">Узнать больше</a>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide third">
+              <p class="slide-title">Только наркотики, только хардкор!</p>
+              <p class="slide-text">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+              <a href="#" class="btn slide-btn">Узнать больше</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Services block -->
+    <div class="container">
+      <div class="row services">
+        <div class="col col1">
+          <div class="service">
+            <div class="img-wrapper"><img src="img/sites.jpg" alt="Сайты"></div>
+            <h3 class="service-title">Веб-сайты</h3>
+            <p class="service-text">Мир никогда не будет прежним <span>после того как увидит ваш сайт!</span></p>
+            <a href="#" class="btn service-sites">Заказать</a>
+          </div>
+        </div>
+
+        <div class="col col1">
+          <div class="service">
+            <div class="img-wrapper"><img src="img/apps.jpg" alt="Приложения"></div>
+            <h3 class="service-title">Приложения</h3>
+            <p class="service-text">Покорите топ-10 приложений в AppStrore и Google Play</p>
+            <a href="#" class="btn service-apps">Заказать</a>
+          </div>
+        </div>
+
+        <div class="col col1">
+          <div class="service">
+            <div class="img-wrapper"><img src="img/presentations.jpg" alt="Презентации"></div>
+            <h3 class="service-title">Презентации</h3>
+            <p class="service-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a href="#" class="btn service-presentations">Заказать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info block -->
+      <div class="row info">
+        <div class="col col2">
+          <p class="info-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+          <p class="info-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+          <p class="list-title">Выполняем заказы на разработку:</p>
+          <ul class="list">
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+
+        <div class="col col1">
+          <div class="index-logo"></div>
+          <p class="since-text">Since 2004</p>
+          <p class="list-title">Как мы работаем:</p>
+          <ul class="list">
+            <li>С самоотдачей 146%</li>
+            <li>Соблюдая сроки на 100%</li>
+            <li>По предоплате 50%</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- References block -->
+      <div class="row references">
+        <a name="references"></a>
+        <div class="col col1">
+          <a href="http://glukhanko.ru/" class="reference-img" target="_blank"><img src="img/reference-glukhanko.png" alt="Glukhanko">Glukhanko</a>
+        </div>
+
+        <div class="col col1">
+          <a href="http://htmlacademy.ru/" class="reference-img" target="_blank"><img src="img/reference-html_academy.png" alt="HTML Academy">HTML Academy</a>
+        </div>
+
+        <div class="col col1">
+          <a href="http://barbershop-borodinski.ru/vasilyeva/barbershop/" class="reference-img barbershop" target="_blank"><img src="img/reference-barbershop.png" alt="Barbershop Borodinski">Barbershop Borodinski</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Map & contacts -->
+  <div class="map-wrapper">
+    <a name="contacts"></a>
+    <div id="map" style="width:100%; height:416px"></div>
+      <div class="col col1">
+        <div class="contacts">
+          <p class="contacts-title"><span>Nёrds</span> design studio</p>
+          <p class="contacts-address">350000, Краснодар, ул. Головатого, 100</p>
+          <p class="contacts-phone">тел. +7 (861) 275-75-75</p>
+          <a href="#" class="btn contacts-btn">Напишите нам</a>
+        </div>
+      </div>
+  </div>
+
+<!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col col1">
+          <div class="social-icons">
+            <a class="icon-vk" href="https://vk.com/" target="_blank">Vk</a>
+            <a class="icon-facebook" href="https://www.facebook.com/" target="_blank">Fb</a>
+            <a class="icon-instagram" href="https://instagram.com/" target="_blank">Insta</a>
+          </div>
+        </div>
+
+        <div class="col col2">
+          <p class="friendship-title">Давайте дружить, это выгодно!</p>
+          <p class="friendship-text">Скидка 10% для друзей из социальных сетей</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+<!-- Feedback form -->
+  <form action="#" method="get" class="feedback-form">
+    <p class="name">
+      <label for="input-name">Ваше имя:</label><input type="text" id="input-name" name="feedback-name" placeholder="Представьтесь, пожалуйста">
+    </p>
+    <p class="e-mail">
+      <label for="input-e-mail">Ваш e-mail:</label><input type="email" id="input-e-mail" name="feedback-e-mail" placeholder="Для отправки ответа">
+    </p>
+    <p class="message-text">
+      <label for="input-message">Текст письма:</label><textarea id="input-message" name="feedback-message" placeholder="В свободной форме"></textarea>
+    </p>
+    <div class="form-btns">
+      <input type="submit" id="input-submit" name="feedback-submit" class="btn feedback-submit" value="Отправить">
+      <a href="#" class="btn feedback-cancel">Отмена</a>
+    </div>
+  </form>
+
+<!-- Javascript -->
+<script src="http://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
 </html>
